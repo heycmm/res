@@ -6,7 +6,7 @@
 ## 使用方法
 
 ``` bash
-git clone git@github.com:vergilwu/resume.git
+git clone git@github.com:proxy/res.git
 cd resume
 npm install
 npm run dev
