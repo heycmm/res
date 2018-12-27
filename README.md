@@ -7,7 +7,7 @@
 
 ``` bash
 git clone git@github.com:proxy/res.git
-cd resume
+cd res
 npm install
 npm run dev
 ```
