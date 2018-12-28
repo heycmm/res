@@ -24,10 +24,10 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是武志伟
-* 七月了，作为一名应届生该实习了
-* 找工作先得有一份简历。
-* 说做就做，我来写一份简历！
+* 大家好
+* 近来发现一个好玩的项目
+* 就clone下来略作借鉴（抄袭）
+* 23333
 */
 
 /* 首先给所有元素加上过渡效果 */
@@ -85,13 +85,13 @@ html{
   background: white; color: #222;
   overflow: auto;
 }
-/* 好了，我开始写简历了 */
+/* 好了，我开始zb了 */
 
 
 `,
           `
 /* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
+ * 对了，这是 Markdown 格式的，我需要变成更友好的格式
  * 简单，用开源工具翻译成 HTML 就行了
  */
 `
@@ -128,36 +128,45 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `武志伟
+        fullMarkdown: `ccc
 ----
 
-安卓开发工程师，前端
-应届毕业生，软件工程专业 就读于[重邮移通](http://www.cqyti.com) 。
+xxxxx
+ccccccccc。
 
 技能
+
 ----
 
-* 安卓开发
-* 前端开发
+
+* Java开发
+* 后端开发
 * Vue.js 开发
 * Linux 系统
 * 微信小程序开发
 
+
 工作经历
+
 ----
 
-1. [双体系](http://www.baidu.com/sf_bk/item/双体系卓越人才教育基地)
-2. 河北冀方机械有限公司
-3. DISS-BK项目组
+
+1. ailibaba 
+2. 腾讯
+3. x'x项目组
+
 
 链接
+
 ----
 
-* [GitHub](https://github.com/vergilwu)
-* [我的微博](http://weibo.com/u/2551765430)
 
-> 如果你对我有兴趣，
-请联系 [我的邮箱]vergilcat@gmail.com，非常感谢给我的机会！
+* [GitHub](https://github.com/proxygit)
+* [我的博客](https://orcl.cc)> 
+
+
+call me，
+ [我的邮箱]gugeguge23333@gmail.com
 
 `
       }
