@@ -25,9 +25,9 @@
           `/*
 * Inspired by http://strml.net/
 * 大家好
-* 22221123333
-* 233333333333
-* 111111111111111
+* 近来发现一个好玩的项目
+* 就clone下来略作借鉴（抄袭）
+* 23333
 */
 
 
@@ -140,7 +140,7 @@ ccccccccc。
 ----
 
 
-1. ailibab 
+1. ailibaba 
 2. 腾讯
 3. x'x项目组
 
@@ -155,7 +155,7 @@ ccccccccc。
 
 
 call me，
- [我的邮箱]gugeguge23333@gmail.com，！
+ [我的邮箱]gugeguge23333@gmail.com
 
 `
       }
