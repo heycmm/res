@@ -1,0 +1,105 @@
+/**
+ *
+ *  这个项目的源码是strml.net
+ *
+ *  原作者叫塞缪尔·里德。是BitMEX.com的CTO
+ *
+ *  这几天偶然发现了开源，就略作修改和尬翻。
+ *
+ */
+
+/**
+ * 动画效果…
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+/**
+ *  黑白分明很无聊，
+ *
+ *  来r个gb
+ *
+ */
+
+html {
+  background: rgb(63, 82, 99);
+}
+
+/***
+ * 稍等
+ */
+
+pre, a {
+  color: white;
+}
+
+/**
+ * 先来个防闪瞎模式，
+ *
+ * 界面太大，不好操作。
+ *
+ * 就先搞个界面。
+ */
+
+pre:not(:empty) {
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 44.6%;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 10px 10px 20px;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+}
+
+/**
+ * 好了，现在开始填充。。。。。。
+ * 的准备工作
+ */
+
+#style-text {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+/**
+ * 先分清楚青红皂白，
+ * 可读性很重要。
+ */
+
+.comment       { color: #857F6B; font-style: italic; }
+.selector      { color: #E69F0F; }
+.selector .key { color: #64D5EA; }
+.key           { color: #64D5EA; }
+.value         { color: #BE84F2; }
+.value.px      { color: #F92772; }
+
+/**
+ *
+ * 这里给了点需要斜着眼睛看的3D特效
+ */
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+#style-text {
+  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  max-height: 94.5%;
+}
+
+/**
+ * B装完了
+ * 来说一哈项目相关
+ */
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}
