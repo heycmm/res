@@ -1,5 +1,5 @@
 {
-  "name": "strml.net",
+  "name": "res",
   "version": "0.0.1",
   "description": "",
   "main": "app.js",
@@ -9,7 +9,7 @@
     "dev": "webpack-dev-server --open",
     "watch": "webpack --progress --watch"
   },
-  "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
+  "author": "S(https://orcl.cc/)",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
