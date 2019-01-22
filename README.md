@@ -11,5 +11,6 @@ cd res
 npm install
 npm run dev
 
+浏览器打开：http://localhost:4003/
 
 ```
