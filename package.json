@@ -2,11 +2,11 @@
   "name": "res",
   "version": "0.0.1",
   "description": "",
-  "main": "app.js",
+  "main": "res/app.js",
   "scripts": {
     "build": "webpack .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --open",
+    "dev": "webpack-dev-server --disableHostCheck=true",
     "watch": "webpack --progress --watch"
   },
   "author": "S(https://orcl.cc/)",

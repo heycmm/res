@@ -1,13 +1,15 @@
 # Vergil's Resume
 
 > This is my resume
+婕旂ず鍦板潃 https://czx.me/
 
-
-## 使用方法
+## 浣跨敤鏂规硶
 
 ``` bash
 git clone https://github.com/proxygit/res.git
 cd res
 npm install
 npm run dev
+
+
 ```
