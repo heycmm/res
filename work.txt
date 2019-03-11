@@ -23,13 +23,12 @@ CZX.me
 Projects
 --------
 
-* www.baidu.com
-* www.taobao.re
-* www.jd.com
-* www.qq.com
-* www.orcl.cc
+* ssr.czx.me //酸酸乳
+* so.czx.me //搜索引擎
+* gg.czx.me //迷你代理
+* www.orcl.cc //聊天工具
 and of course...
-* orcl.cc
+* orcl.cc  //博客
 
 Open Source
 -----------
