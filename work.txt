@@ -8,7 +8,12 @@ CZX.me
 90后永远十八，
 性温和，喜床，
 复制粘贴工作者，
-下里巴人。
+下里巴人,
+灵魂素描大师,
+美食鉴赏家,
+lol黄金大神,
+dnf退役大佬,
+b站大会员用户。
 ～～～～～～～～～～～～
 * Hello World!  ???超?神??
 * 在我机器上没问题啊！(′???)σ
@@ -20,7 +25,7 @@ CZX.me
 * 朴实无华？？？ 不存在的！
 * Smile every day！  ヾ(?°?°?)??
 
-Projects
+Projects(业余玩具)
 --------
 
 * ssr.czx.me //酸酸乳
@@ -30,22 +35,18 @@ Projects
 and of course...
 * orcl.cc  //博客
 
-Open Source
+Technology stack（技能）
 -----------
 
-* Babel
-* React-Grid-Layout
-* React-LocalStorage
-* React-Router-Component
-* React-Resizable
-* React-Draggable
-* OpenBazaar
-* JSXHint
-* BTChip-Signing-Tools
-* TextFit
-* Imgur-to-GFYcat
-* backbone.queryRouter
-* backbone.layoutManager
-* Mongoose-Filter-Denormalize
+* c#
+* Java
+* python3
+* javascript
+* nodeJs
+* vueJs
+* php
+* linux
+* mysql
+* oracle
 Made with ❤️ in 🇨🇳
 
