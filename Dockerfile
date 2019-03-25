@@ -1,4 +1,4 @@
-FROM  nodejs:10
+FROM  node:10
 LABEL maintainer="hey cmm<i@orcl.cc>"
 
 WORKDIR /root/res
