@@ -1,6 +1,7 @@
 'use strict';
 var webpack = require('webpack');
 var path = require('path');
+var UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 // Builds bundle usable inside <script>.
 module.exports = {
@@ -16,7 +17,7 @@ module.exports = {
   },
   devtool: 'source-map',
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js?$/,
         exclude: /node_modules/,
@@ -30,10 +31,26 @@ module.exports = {
     compress: true,
     port: 4003,
   },
+  optimization: {
+    minimizer: [
+      // we specify a custom UglifyJsPlugin here to get source maps in production
+      new UglifyJsPlugin({
+        cache: true,
+        parallel: true,
+        uglifyOptions: {
+          compress: false,
+          ecma: 6,
+          mangle: true
+        },
+        sourceMap: true
+      })
+    ]
+  },
   plugins: [
     new webpack.optimize.OccurrenceOrderPlugin(),
-    new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}})
+    //optimization.minimizer[0].UglifyJsPlugin({compress: {warnings: false}})
   ],
+
   resolve: {
   }
 };

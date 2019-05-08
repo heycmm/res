@@ -6,7 +6,7 @@
     "curly": "multi-line",
     "no-use-before-define": "nofunc"
   },
-  env: {
+  "env": {
     "browser": true,
     "node": true
   }

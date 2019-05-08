@@ -102,6 +102,8 @@ async function writeTo(el, message, index, interval, mirrorToStyle, charsPerInte
     writeSimpleChar(el, chars);
   }
 
+
+
   // Schedule another write.
   if (index < message.length) {
     let thisInterval = interval;

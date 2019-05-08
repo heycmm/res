@@ -20,14 +20,16 @@
     "babel-preset-stage-3": "^6.24.1",
     "exports-loader": "^0.6.2",
     "raw-loader": "^0.5.1",
-    "webpack": "^3.5.5",
-    "webpack-dev-server": "^2.7.1"
+    "webpack": "^4.0.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "bluebird": "^3.5.0",
     "classlist-polyfill": "^1.0.1",
     "markdown": "^0.5.0",
-    "mouse-wheel": "^1.0.2"
+    "mouse-wheel": "^1.0.2",
+    "uglifyjs-webpack-plugin": "^2.1.2"
   }
 }
