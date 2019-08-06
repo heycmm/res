@@ -7,7 +7,8 @@
     "build": "webpack .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --disableHostCheck=true",
-    "watch": "webpack --progress --watch"
+    "watch": "webpack --progress --watch",
+
   },
   "author": "S(https://orcl.cc/)",
   "license": "MIT",

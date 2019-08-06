@@ -79,6 +79,7 @@ async function surprisinglyShortAttentionSpan() {
  * Helpers
  */
 
+
 let endOfSentence = /[\.\?\!]\s$/;
 let comma = /\D[\,]\s$/;
 let endOfBlock = /[^\/]\n\n$/;

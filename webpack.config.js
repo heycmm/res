@@ -32,6 +32,7 @@ module.exports = {
     port: 4003,
   },
   optimization: {
+
     minimizer: [
       // we specify a custom UglifyJsPlugin here to get source maps in production
       new UglifyJsPlugin({
