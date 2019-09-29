@@ -32,12 +32,10 @@ Projects
 --------
 
 * ssr.czx.me //酸酸乳
-* so.czx.me //搜索引擎
-* gg.czx.me //迷你代理
 * www.orcl.cc //聊天工具
 and of course...
 * www.heycmm.cn  //博客
-
+* 微信小程序(打开console)
 Technology stack（技能）
 -----------
 

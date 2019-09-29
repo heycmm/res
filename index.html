@@ -43,6 +43,65 @@
           +'　　　　　　　　　┃┫┫　┃┫┫\n'
           +'　　　　　　　　　┗┻┛　┗┻┛+ + + +';
 
-  console.log('%c' + noattack, "color:orange");
+ console.log('%c' + noattack, "color:orange");
+  console.log("%c+",
+          `font-size: 1px;
+  padding: 122px 187px;
+  background-image: url(https://www.heycmm.cn/upload/2019/3/%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%8820190403100100544.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: transparent;`);
+</script>
+<script>
+
+  /*javascript:(function() {
+
+    function uniqueArr(arr) {
+      return Array.from(new Set(arr))
+    }
+    function formatConsole(list) {
+
+      if (window.console) {
+        var cons = console;
+        if (cons) {
+          list.forEach(item => {
+            cons.log("%c\n", "font-size:100px;background:url('"+ item+"') no-repeat;background-size:contain;");
+            cons.log(item);
+          });
+        }
+      }
+    }
+
+    function getDomImage() {
+      let imgList = [].slice.call(document.querySelectorAll('img')).map(item => item.src);
+      return imgList;
+    }
+    function getStyleImage() {
+      const imgList = [];
+      let styleEles = [].slice.call(document.querySelectorAll("*[style]"));
+      styleEles && styleEles.map(styleEle => {
+        const styleStr = Object.entries(styleEle.style).filter(item => item[1]).map(item => item[0] + ':' + item[1]).join(';');
+        let styleImages = styleStr.match(/url\((.*)\)/g);
+        styleImages = styleImages && styleImages.map(item => item.replace(/url\(['"]*([^'"]*)['"]*\)/,'$1'));
+        if(styleImages) imgList.push(...styleImages);
+      });
+      return imgList;
+    }
+    function getCssImage() {
+      const styleEles = document.querySelectorAll('style');
+      return [].slice.call(styleEles).map(styleEle => {
+        const css = styleEle.textContent;
+        const cssImages = css.match(/url\((.*)\)/g);
+        return cssImages && cssImages.map(item => item.replace(/url\((.*)\)/,'$1')) || [];
+      });
+    }
+    function getImages() {
+      return getDomImage().concat(...getCssImage()).concat(...getStyleImage());
+    }
+    let imgs = getImages();
+    imgs = uniqueArr(imgs);
+    formatConsole(imgs);
+  })();*/
+
 </script>
 </html>
