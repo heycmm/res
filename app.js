@@ -14,7 +14,7 @@ import {default as writeChar, writeSimpleChar, handleChar} from './lib/writeChar
 import getPrefix from './lib/getPrefix';
 
 // Vars that will help us get er done
-const isDev = window.location.hostname === '127.0.0.1';
+const isDev = window.location.hostname === 'localhost';
 const speed = isDev ? 0 : 16;
 let style, styleEl, workEl, pgpEl, skipAnimationEl, pauseEl;
 let animationSkipped = false, done = false, paused = false;
@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
     getEls();
     createEventHandlers();
     startAnimation();
+
 });
 
 async function startAnimation() {

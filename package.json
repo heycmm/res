@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --open --mode development --hot --inline",
+    "dev": "webpack-dev-server --open --mode development",
     "watch": "webpack --progress --watch"
   },
   "author": "Samuel Reed <heycmm.cn@gmail.com> (http://czx.me/)",
