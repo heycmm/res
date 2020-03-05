@@ -5,6 +5,9 @@
     <title>czx.me</title>
     <style id="style-tag"></style>
     <script src="distapp.js"></script>
+    <link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
     <link rel="icon" href="img/daiji.jpeg">
     <link rel="icon shortcut" type="image/ico" href="img/daiji.jpeg">
     <script>
@@ -24,9 +27,25 @@
       <pre id="pgp-text"></pre>
     </div>
     <div id="header"></div>
+    <body>
+    <div id="aplayer"></div>
+    </body>
   </body>
 
 <script>
+  $.getJSON("https://api.heycmm.cn/List/487943749", function (data) {
+    const ap = new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      lrcType: 3,
+      preload: 'auto',
+      //autoplay: true,
+      listFolded: true,
+      listMaxHeight: '165px',
+      theme:"#66ccff",
+      audio: data
+    });
+  });
   /**
    * 神兽庇佑，万码朝宗
    */
